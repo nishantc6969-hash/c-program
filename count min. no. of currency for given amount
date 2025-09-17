@@ -1,0 +1,41 @@
+#include <stdio.h>
+int main()
+{
+    int n_2000,n_500,n_200,n_100,n_50,n_20,n_10,n_5,n_2,n_1,amt;
+    printf("enter amount:");
+    scanf("%d",&amt);
+    n_2000= amt/2000;
+    amt= amt%2000;
+    n_500= amt/500;
+    amt= amt%500;
+    n_200= amt/200;
+    amt= amt%200;
+    n_100= amt/100;
+    amt= amt%100;
+    n_50= amt/50;
+    amt= amt%50;
+    n_20= amt/20;
+    amt= amt%20;
+    n_10= amt/10;
+    amt= amt%10;
+    n_5= amt/5;
+    amt= amt%5;
+    n_2= amt/2;
+    amt= amt%2;
+    n_1= amt/1;
+
+
+    printf("no. of 2000 notes are: %d\n", n_2000);
+    printf("no. of 500 notes are: %d\n", n_500);
+    printf("no. of 200 notes are: %d\n", n_200);
+    printf("no. of 100 notes are: %d\n", n_100);
+    printf("no. of 50 notes are: %d\n", n_50);
+    printf("no. of 20 notes are: %d\n", n_20);
+    printf("no. of 10 notes are: %d\n", n_10);
+    printf("no. of 5 notes are: %d\n", n_5);
+    printf("no. of 2 notes are: %d\n", n_2);
+    printf("no. of 1 notes are: %d\n", n_1);
+    return 0;
+
+
+}
