@@ -1,0 +1,56 @@
+#include <stdio.h>
+
+int main()
+{
+    int val;
+    float n;
+    while(1)
+    {
+        printf("1. kms to inches \n");
+        printf("2. inches to foot\n");
+        printf("3. cms to inches\n");
+        printf("4. pound to kgs\n");
+        printf("5. inches to meteres\n");
+        printf("6.wanna exit\n");
+        printf("what u want to do \n");
+        scanf("%d",&val);
+
+        if (val==1){
+            printf("enter value to convert:");
+            scanf(" %f",&n);
+
+            printf("%f kms to inches is:%f\n", n, n*0.621);
+        }
+        else if(val==2){
+            printf("enter value to convert:");
+            scanf(" %f",&n);
+
+            printf("%f inches to foot is:%f\n", n, n*0.0833);
+        }
+        else if(val==3){
+            printf("enter value to convert:");
+            scanf(" %f",&n);
+
+            printf("%f cms to inches is:%f\n",n,n*0.394);
+        }
+        else if(val==4){
+            printf("enter value to convert:");
+            scanf(" %f",&n);
+
+            printf("%f pound to kgs is:%f\n",n,n*0.454);
+        }
+        else if(val==5){
+            printf("enter value to convert:");
+            scanf(" %f",&n);
+
+            printf("%f inches to metres is:%f\n",n,n*0.0254);
+        }
+        else {
+            printf("exit\n");
+            break;
+        }
+        
+    }
+    return 0;
+    
+}
