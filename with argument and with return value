@@ -1,0 +1,21 @@
+//with argument and with return value
+#include <stdio.h>
+int sum(int a,int b)
+{
+    return a+b;
+}
+int main()
+{
+    printf("the sum is %d\n",sum(19,18));
+    return 0;
+}
+#include <stdio.h>
+int sum(int a,int b)
+{
+    return a+b;
+}
+int main()
+{
+    printf("the sum is %d\n",sum(19,18));
+    return 0;
+}
