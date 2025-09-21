@@ -1,0 +1,13 @@
+// without argument and without return value
+#include <stdio.h>
+void mynaam()
+{
+    printf("Nishant\n");
+}
+int main()
+{
+    printf("my name is:");
+    mynaam();
+    return 0;
+
+}
