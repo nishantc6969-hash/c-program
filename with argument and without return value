@@ -1,0 +1,13 @@
+// with argument and without return value
+#include <stdio.h>
+void yoyo(int n)
+{
+    for( int i=0;i<n;i++){
+        printf("%c",'*');
+    }
+}
+int main()
+{
+    yoyo(5);
+    return 0;
+}
