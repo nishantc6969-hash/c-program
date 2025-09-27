@@ -1,0 +1,35 @@
+#include <stdio.h>
+int main(){
+    float n1,n2;
+    char op;
+    printf("enetr an operator:");
+    scanf("%c",&op);
+    printf("enter 1st number:");
+    scanf("%f",&n1);
+    printf("enter 2nd number:");
+    scanf("%f",&n2);
+
+    switch(op)
+    {
+        case '+':
+        printf("the sum of numbers is %f\n",n1+n2);
+        break;
+        case '-':
+        printf("the subtraction of numbers is %f\n",n1-n2);
+        break;
+        case '*':
+        printf("multiplication of number is %f\n",n1*n2);
+        break;
+        case '/':
+        if (n2==0){
+            printf("invalid , division by zero is not allowed\n");
+        }
+        else{
+            printf("division of numbers is %f\n",n1/n2);
+        }
+        break;
+
+
+    }
+    return 0;
+}
