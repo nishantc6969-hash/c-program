@@ -10,6 +10,7 @@ int main()
     printf("enter time:");
     scanf("%d",&t);
     printf("simple interest:%d\n", (p*r*t)/100 );
+    printf("tortal amt. payable:%d\n", ((p*r*t)/100)+p));
 
     printf("compound interest:%f\n",p*(pow(1+(r/100),t)));
     
