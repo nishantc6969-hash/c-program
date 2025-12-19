@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
     int a=0,b=1,n,i=1,next;
-    printf("enter a no. how many u want to print");
+    printf("enter a no. how many u want to print:");
     scanf("%d",&n);
     printf("%d ",a);
     printf("%d ",b);
-    while(i<=n){
+    while(i<=(n-2)){
         next=a+b;
         a=b;
         b=next;
